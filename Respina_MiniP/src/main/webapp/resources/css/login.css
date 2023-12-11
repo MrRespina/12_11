@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+@font-face {
+	font-family: "n";
+	src: url("nanum.ttf");
+}
+
+.memberTable{
+	
+	float: right;	
+	border: rgba(255,255,255,0.35) dotted 3px;
+	border-radius: 5px;
+	margin-right : 10px;
+	
+}
+
+.memberInput{
+	
+	font-family: "n";
+	font-size:30px;
+	height:40px;
+	text-align: right;
+	
+}
+
+.memberInput::placeholder{
+	
+	font-family: "n";
+	font-size:30px;
+	height:40px;
+	text-align: right;
+	
+}
+
+.memberBtn{
+	
+	font-family: "n";
+	font-size:30px;
+	height:40px;
+	text-align: center;
+	width: 100px;
+	height: 45px;
+	border-radius: 4px;
+	background-color: rgba(0,0,0,0.4);
+	color:white;
+	text-shadow: black 3px 3px 3px;
+	
+}
+
+.submitTbl {
+	font-family: "n";
+	font-size: 40px;
+	margin-top:15px;
+	text-align:center;
+	border-radius: 3px;
+}
+
+.regInput {
+	text-align:right;
+	font-family: "n";
+	font-size: 40px;
+}
+
+.regInput::placeholder{
+	font-family: "n";
+	font-size: 40px;
+	text-align:right;
+}
+
+#submitBtn{
+	
+	font-family: "n";
+	font-size: 40px;
+	
+}
